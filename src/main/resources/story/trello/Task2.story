@@ -14,7 +14,7 @@ When I compare against baseline with `regPageView` ignoring:
 |ELEMENT                   |
 |By.xpath(//*[@id="email"])|
 
-Scenario: Visual checks paticular element 
+Scenario: Visual checks particular element 
 
 When I change context to element located `By.xpath(//*[@alt="Trello Logo"])`
 When I compare against baseline with `trelloLogo`

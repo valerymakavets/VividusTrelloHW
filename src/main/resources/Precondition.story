@@ -1,7 +1,7 @@
 Scenario: ‘Sign Up’ scenario 
 
 Given I am on a page with the URL 'https://trello.com/signup'
-When I register new user 
+When I register new user
 When I wait until element located `By.xpath(//*[@id="password"])` appears
 When I click on element located `By.xpath(//*[@id="displayName"])`
 When I enter `<fullName>` in field located `By.xpath(//*[@id="displayName"])`
